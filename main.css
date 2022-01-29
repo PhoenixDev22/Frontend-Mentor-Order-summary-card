@@ -199,6 +199,9 @@ main .summary__card{
         bottom:1rem;
         padding:2rem;
     }
+    .attribution { 
+        display: none;
+    }
 }
 .attribution { 
     position: absolute;
