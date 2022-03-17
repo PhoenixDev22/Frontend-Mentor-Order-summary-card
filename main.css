@@ -54,8 +54,8 @@ main{
     positio: absolute;
     top: 0;
     left: 0;
-    max-width: 100%;
-    min-height: 100%;
+    width: 100%;
+    min-height: 220px;
     object-fit: contain;
     display: block;
 }
