@@ -2,8 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Order summary card ">
 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,29 +22,30 @@
     <div class="summary__card">
       <!--  Styling image__bg-->
       <div class="image__bg">
-        <img src="images/illustration-hero.svg" alt="">
+        <img src="images/illustration-hero.svg" alt="" aria-hidden="true">
       </div>
       <!-- Styling summary__info -->
       <div class="summary__info">
-        <h1> Order Summary</h1>
-        <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
+        <h1 class="title"> Order Summary</h1>
+        <p class="description">You can now listen to millions of songs, audiobooks, and podcasts on any 
           device anywhere you like!</p>
           <ul class="annual__plan">
-            <li><img src="images/icon-music.svg" alt=""></li>
+            <li><img src="images/icon-music.svg" alt="" aria-hidden="true"></li>
             <li class="annual__price">
               <span class="year__plan__span">Annual Plan</span>
               <span class="price__span">$59.99/year</span>
             </li>
-            <li class="change__anchor"><a href="#">Change</a></li>
+            <li class="change__anchor"><a href="#" aria-label="change your plan ">Change</a></li>
           </ul>
       </div>
       <!-- Styling buttons -->
       <div class="buttons">
-        <button class="proceed__payment__btn">Proceed to Payment</button>
-        <a class="cancel__order"> Cancel Order</a>
+        <button type="button" class="proceed__payment__btn">Proceed to Payment</button>
+        <a href="#" class="cancel__order"> Cancel Order</a>
       </div>
     </div>
   </main> 
+  <!-- footer -->
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://www.frontendmentor.io/profile/PhoenixDev22" target="_blank">PhoenixDev22</a>.
