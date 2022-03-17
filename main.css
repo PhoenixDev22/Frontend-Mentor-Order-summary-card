@@ -158,7 +158,7 @@ li:first-child{
         background-repeat: no-repeat;
         background-position: top left;
         background-size: contain;
-        padding: 0 1.5rem;
+        padding: 1.5rem;
     }
     .summary__card{
         max-width: 20.32rem;
