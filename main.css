@@ -56,6 +56,7 @@ main{
     left: 0;
     max-width: 100%;
     min-height: 100%;
+    object-fit: contain;
     display: block;
 }
 /* start styling summary__info */
