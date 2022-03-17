@@ -45,6 +45,8 @@ main{
     box-shadow: 5px 5px 10px rgba(0,0,0,.1);
 }
 .image__bg{
+    position: relative;
+    top:0;
     width: 100%;
 }
 .image__bg img{
