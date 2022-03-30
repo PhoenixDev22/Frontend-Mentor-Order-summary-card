@@ -48,7 +48,7 @@ main{
     position: relative;
     top: 0;
     width: 100%;
-    min-height: 12.5rem;
+/*  min-height: 12.5rem; */
 }
 .image__bg img{
     positio: absolute;
