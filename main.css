@@ -34,7 +34,7 @@ main{
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    min-height: 100vh;   
+    /*min-height: 100vh;   */
 }
 .summary__card{
     position: relative;
