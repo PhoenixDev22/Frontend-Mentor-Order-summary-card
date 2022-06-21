@@ -19,6 +19,7 @@ ul{
 }
 body{
     width:100%;
+    padding: 1rem 0;
     min-height: 100vh;
     background: url(images/pattern-background-desktop.svg), var(--Pale-blue) ;
     background-position: top left;
